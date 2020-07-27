@@ -58,8 +58,8 @@ function ProjectDescription({
                 </div>
             </div>
             <div className="buttons-wrapper">
-                <Button href={websiteUrl}>To Live Website</Button>
-                <Button href={repositoryUrl}>To Github Repository</Button>
+                <Button href={websiteUrl}>Live Website</Button>
+                <Button href={repositoryUrl}>Github Repository</Button>
             </div>
         </div>
     );
