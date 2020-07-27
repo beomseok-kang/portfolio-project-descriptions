@@ -1,0 +1,17 @@
+li.project-list-item {
+    min-height: 900px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    &.even {
+        flex-direction: row-reverse;
+    }
+    &.odd {
+        flex-direction: row;
+    }
+    .item-left {
+        width: 30%;
+        height: 100%;
+        position: relative;
+    }
+}

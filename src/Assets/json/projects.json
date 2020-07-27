@@ -1,0 +1,74 @@
+[
+    {
+        "key": 1,
+        "abbr": "swh",
+        "title": "So What Happened",
+        "stacks": ["html5", "css3", "javascript"],
+        "libraries": [],
+        "description": "'So What Happened?' is a flutter app that is being servied in South Korea. The website is built as an introduction webpage.",
+        "siteUrls": {
+            "pageUrl": "https://beomseok-kang.github.io/swh-website/",
+            "githubUrl": "https://github.com/beomseok-kang/swh-website"
+        }
+    },
+    {
+        "key": 2,
+        "abbr": "uae",
+        "title": "Useful Animation Effects",
+        "stacks": ["html5", "css3", "javascript"],
+        "libraries": [],
+        "description": "It is a simple toolbox, a webpage that simply gathered some useful animation effects, which could be used later for more dynamic websites.",
+        "siteUrls": {
+            "pageUrl": "https://beomseok-kang.github.io/useful-animation-effects/",
+            "githubUrl": "https://github.com/beomseok-kang/useful-animation-effects"
+        }
+    },
+    {
+        "key": 3,
+        "abbr": "wlt",
+        "title": "Watch LCK Together",
+        "stacks": ["react", "javascript", "sass"],
+        "libraries": ["react-router"],
+        "description": "'Watch LCK Together' is a react SPA, which was made in order to service an anonymous chatting. The webpage allows people to chat on the screen of youtube, and therefore make the people chatting feel more like chatting in a room with friends.",
+        "siteUrls": {
+            "pageUrl": "https://beomseok-kang.github.io/watch-lck-together/lobby",
+            "githubUrl": "https://github.com/beomseok-kang/watch-lck-together"
+        }
+    },
+    {
+        "key": 4,
+        "abbr": "nr",
+        "title": "Naver Redesign",
+        "stacks": ["react", "javascript", "styledcomponents", "redux"],
+        "libraries": ["react-router"],
+        "description": "'Naver Redesign' is a react SPA, which was made with my personal question: 'what would it be like if Naver had a similar design with Google?'",
+        "siteUrls": {
+            "pageUrl": "https://beomseok-kang.github.io/naver-redesign/",
+            "githubUrl": "https://github.com/beomseok-kang/naver-redesign"
+        }
+    },
+    {
+        "key": 5,
+        "abbr": "b",
+        "title": "Beomlog",
+        "stacks": ["react", "typescript", "redux", "sass", "firebase"],
+        "libraries": ["react-router", "redux-saga", "redux-middleware", "CKEditor5"],
+        "description": "'Beomlog' is a personal blog project using Google Firestore as the backend/database. It is an SPA React-Typescript website. The tech log is written on my tech blog, and the codes are refactored for better maintenance.",
+        "siteUrls": {
+            "pageUrl": "https://beomlog.me/home",
+            "githubUrl": "https://github.com/beomseok-kang/beomlog-start"
+        }
+    },
+    {
+        "key": 6,
+        "abbr": "p",
+        "title": "Portfolio",
+        "stacks": ["html5", "css3", "javascript", "react", "typescript", "sass"],
+        "libraries": ["react-router"],
+        "description": "The portfolio itself is made with HTML5, CSS3 and Javascript, and this portfolio description website is built with React with Typescript, and Sass (SCSS).",
+        "siteUrls": {
+            "pageUrl": "https://beomseok-kang.github.io/",
+            "githubUrl": "https://github.com/beomseok-kang/beomseok-kang.github.io"
+        }
+    }
+]

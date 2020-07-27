@@ -1,0 +1,35 @@
+$main-color: #343090;
+$keys: ('swh','uae','wlt','nr','b','p');
+
+.project-photo_and_name-wrapper {
+    width: 100%;
+    height: 100%;
+    @each $key in $keys {
+        &##{$key} {
+            background: url(../Assets/Images/#{$key}.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .project-photo_and_name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        &.even {
+            background: rgba($main-color, 0.7);
+        }
+        &.odd {
+            background: rgba($main-color, 0.7);
+        }
+    
+        h2 {
+            color: white;
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+}

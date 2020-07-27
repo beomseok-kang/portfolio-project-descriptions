@@ -1,0 +1,60 @@
+$main-color: #343090;
+
+.project-description {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h4 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+    ul.stacks-list {
+        margin-bottom: 2rem;
+    }
+    ul.libraries-list {
+        list-style: disc;
+        display: flex;
+        li {
+            margin: 0 1.25rem;
+        }
+    }
+
+    &.even {
+        background: #FFFFFF;
+    }
+    &.odd {
+        background: #FFFFFF;
+    }
+
+    .description-upper {
+        .stacks-list-wrapper {
+            padding: 2rem;
+            color: #FFFFFF;
+            background-color: #343090;
+            .stacks-list {
+                display: flex;
+                li+li {
+                    margin-left: 1rem;
+                }
+            }
+        }
+    
+        .description-wrapper {
+            padding: 2rem;
+        }
+    }
+    
+    .buttons-wrapper {
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        a.btn {
+            font-size: 1.25rem;
+            font-weight: bold;
+            width: 50%;
+        }
+    }
+}
