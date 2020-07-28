@@ -4,6 +4,7 @@ import ProjectDescription from '../Components/ProjectDescription';
 import { project } from '../Module/Projects';
 import "./ProjectListItemContainer.scss";
 import ToNextButton from '../Components/ToNextButton';
+import { textToHtml } from '../lib/funcUtils';
 
 type ProjectListItemContainerProps = {
     project: project;
@@ -12,6 +13,7 @@ type ProjectListItemContainerProps = {
 
 function ProjectListItemContainer ({ project, isEvenNum }: ProjectListItemContainerProps) {
 
+    const descriptionHTML = textToHtml(project.description);
     
     const className = "project-list-item" + (
         isEvenNum? " even": " odd"
@@ -40,7 +42,7 @@ function ProjectListItemContainer ({ project, isEvenNum }: ProjectListItemContai
                 repositoryUrl={project.siteUrls.githubUrl}
                 websiteUrl={project.siteUrls.pageUrl}
                 isEvenNum={isEvenNum}
-                description={project.description}
+                description={descriptionHTML}
                 stacks={project.stacks}
                 libraries={project.libraries}
             />

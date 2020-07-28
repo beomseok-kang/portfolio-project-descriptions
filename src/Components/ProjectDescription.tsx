@@ -54,7 +54,8 @@ function ProjectDescription({
                 </div>
                 <div className="description-wrapper">
                     <h4>Description</h4>
-                    {description}
+                    <div className="description-text" dangerouslySetInnerHTML={{__html: description}}>
+                    </div>
                 </div>
             </div>
             <div className="buttons-wrapper">
