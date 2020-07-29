@@ -1,30 +1,18 @@
 [
     {
         "key": 1,
-        "abbr": "swh",
-        "title": "So What Happened",
-        "stacks": ["html5", "css3", "javascript"],
-        "libraries": [],
-        "description": "‘So What Happened?’ is a flutter app that is being serviced in South Korea, which the front-end was built by myself, the UI/UX design was done by myself and a friend (Junhyeok Hwang), and the back-end was constructed using Google firestore database.\nI used some external JS libraries to put some fade-in and fade-out effects on the page, and the page is to be further developed after the app gathers enough users so that the service on web becomes profitable and worth initiating.",
+        "abbr": "b",
+        "title": "Beomlog",
+        "stacks": ["react", "typescript", "redux", "sass", "firebase"],
+        "libraries": ["react-router", "redux-saga", "redux-middleware", "CKEditor5"],
+        "description": "‘Beomlog’ is a personal blog project using Google Firestore as the backend and database. It is an SPA react website. For good maintenance, I have written tech log for the development, and the codes were refactored as much as possible.\nBeomlog was primarily planned to service a personal blog. People can only access to the other people’s posts by either entering directly to the post using post Id, or via the homepage where the latest 10 posts are shown to people.\nThe application handles the authentication using firebase auth service, and the firestore database holds the information about posts, category, user data, etc. The application has all the basic features of personal blog space, and I am planning to add more special features that can specialise ‘Beomlog’ from other blog platforms.\nThe codes on react were written 97% with Typescript (and 3% Javascript, to use the CKEditor5 open source code) for easier tracking and maintenance. Redux was used to manage the states of user, post, category posts, dialog and loading state. Redux-saga and Redux-middleware was used to handle the asynchronous actions required for CRUD of data on firestore database. Sass was used with help of ‘node-sass’ library to style the components, and react-router was used as well. As an editor for the blog post writing, CKEditor5 was used.",
         "siteUrls": {
-            "pageUrl": "https://beomseok-kang.github.io/swh-website/",
-            "githubUrl": "https://github.com/beomseok-kang/swh-website"
+            "pageUrl": "https://beomlog.me/home",
+            "githubUrl": "https://github.com/beomseok-kang/beomlog-start"
         }
     },
     {
         "key": 2,
-        "abbr": "uae",
-        "title": "Useful Animation Effects",
-        "stacks": ["html5", "css3", "javascript"],
-        "libraries": [],
-        "description": "It is a simple toolbox, a webpage that simply gathered some useful animation effects, which could be used later for more dynamic websites.",
-        "siteUrls": {
-            "pageUrl": "https://beomseok-kang.github.io/useful-animation-effects/",
-            "githubUrl": "https://github.com/beomseok-kang/useful-animation-effects"
-        }
-    },
-    {
-        "key": 3,
         "abbr": "wlt",
         "title": "Watch LCK Together",
         "stacks": ["react", "javascript", "sass"],
@@ -36,7 +24,7 @@
         }
     },
     {
-        "key": 4,
+        "key": 3,
         "abbr": "nr",
         "title": "Naver Redesign",
         "stacks": ["react", "javascript", "styledcomponents", "redux"],
@@ -48,15 +36,27 @@
         }
     },
     {
-        "key": 5,
-        "abbr": "b",
-        "title": "Beomlog",
-        "stacks": ["react", "typescript", "redux", "sass", "firebase"],
-        "libraries": ["react-router", "redux-saga", "redux-middleware", "CKEditor5"],
-        "description": "‘Beomlog’ is a personal blog project using Google Firestore as the backend and database. It is an SPA react website. For good maintenance, I have written tech log for the development, and the codes were refactored as much as possible.\nBeomlog was primarily planned to service a personal blog. People can only access to the other people’s posts by either entering directly to the post using post Id, or via the homepage where the latest 10 posts are shown to people.\nThe application handles the authentication using firebase auth service, and the firestore database holds the information about posts, category, user data, etc. The application has all the basic features of personal blog space, and I am planning to add more special features that can specialise ‘Beomlog’ from other blog platforms.\nThe codes on react were written 97% with Typescript (and 3% Javascript, to use the CKEditor5 open source code) for easier tracking and maintenance. Redux was used to manage the states of user, post, category posts, dialog and loading state. Redux-saga and Redux-middleware was used to handle the asynchronous actions required for CRUD of data on firestore database. Sass was used with help of ‘node-sass’ library to style the components, and react-router was used as well. As an editor for the blog post writing, CKEditor5 was used.",
+        "key": 4,
+        "abbr": "swh",
+        "title": "So What Happened",
+        "stacks": ["html5", "css3", "javascript"],
+        "libraries": [],
+        "description": "‘So What Happened?’ is a flutter app that is being serviced in South Korea, which the front-end was built by myself, the UI/UX design was done by myself and a friend (Junhyeok Hwang), and the back-end was constructed using Google firestore database.\nI used some external JS libraries to put some fade-in and fade-out effects on the page, and the page is to be further developed after the app gathers enough users so that the service on web becomes profitable and worth initiating.",
         "siteUrls": {
-            "pageUrl": "https://beomlog.me/home",
-            "githubUrl": "https://github.com/beomseok-kang/beomlog-start"
+            "pageUrl": "https://beomseok-kang.github.io/swh-website/",
+            "githubUrl": "https://github.com/beomseok-kang/swh-website"
+        }
+    },
+    {
+        "key": 5,
+        "abbr": "uae",
+        "title": "Useful Animation Effects",
+        "stacks": ["html5", "css3", "javascript"],
+        "libraries": [],
+        "description": "It is a simple toolbox, a webpage that simply gathered some useful animation effects, which could be used later for more dynamic websites.",
+        "siteUrls": {
+            "pageUrl": "https://beomseok-kang.github.io/useful-animation-effects/",
+            "githubUrl": "https://github.com/beomseok-kang/useful-animation-effects"
         }
     },
     {
