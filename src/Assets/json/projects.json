@@ -49,14 +49,14 @@
     },
     {
         "key": 5,
-        "abbr": "uae",
-        "title": "Useful Animation Effects",
-        "stacks": ["html5", "css3", "javascript"],
+        "abbr": "rsb",
+        "title": "React Sandbox",
+        "stacks": ["react", "css3", "javascript", "styledcomponents"],
         "libraries": [],
-        "description": "It is a simple toolbox, a webpage that simply gathered some useful animation effects, which could be used later for more dynamic websites.",
+        "description": "It is a sandbox that I play with to test some interesting features or libraries. The page itself is build with React and vanilla javascript, using styled-components library for styling of components.\nThe webpage is to be used as my secondary blog that I can play with some interesting stuffs on react.",
         "siteUrls": {
-            "pageUrl": "https://beomseok-kang.github.io/useful-animation-effects/",
-            "githubUrl": "https://github.com/beomseok-kang/useful-animation-effects"
+            "pageUrl": "https://beomseok-kang.github.io/react-sandbox/",
+            "githubUrl": "https://github.com/beomseok-kang/react-sandbox"
         }
     },
     {
