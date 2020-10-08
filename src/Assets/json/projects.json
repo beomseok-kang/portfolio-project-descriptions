@@ -15,12 +15,12 @@
         "key": 2,
         "abbr": "wlt",
         "title": "Watch LCK Together",
-        "stacks": ["react", "javascript", "sass"],
-        "libraries": ["react-router"],
-        "description": "‘Watch LCK Together’ is a react SPA, which was made in order to service an anonymous chatting, and to make people to feel like if they are watching the LCK (League of Legends Challengers Korea, Pro Game League in Korea) and chatting together in a room.\nThe main feature of this service is that the chats appears on the YouTube screen, so that the people who are watching together can see the chats instantaneously while they are watching the video, making them to feel that they are actually watching and chatting together in a room.\nThe react project was done with vanilla JS. Using ‘react-router-dom’ library, 10 + 1 rooms for each team are made. The styling of components was done with ‘node-sass’ library, using Sass (SCSS, exactly). The main theme colour of the webpage was black and grey, mainly because LCK’s theme colour is black.\nThe application is still on development. Currently, only the front-end part is finished developing, and the back-end part is to be developed as soon as possible, with Node.js, express, MongoDB, and Socket.io. As soon as the development finishes, I am planning to purchase a web domain and initiate the service as soon as the development finishes.",
+        "stacks": ["react", "redux", "styledcomponents", "nodejs", "express", "socketio", "nextjs"],
+        "libraries": [],
+        "description": "‘Watch LCK Together’ is a full-stack web development project, which was made in order to service an anonymous chatting, and to make people to feel like if they are watching the LCK (League of Legends Challengers Korea, Pro Game League in Korea) and chatting together in a room.\nThe main feature of this service is that the chats appears on the YouTube screen, so that the people who are watching together can see the chats instantaneously while they are watching the video, making them to feel that they are actually watching and chatting together in a room.\nThe front-end components styling was done using styled-components, and server-side rendering (SSR) was implemented using Next.js. The main theme colour of the webpage was black and grey, mainly because LCK’s theme colour is black. The back-end of this project was built on Express and Node.js. The chatting system was produced using Socket.io, and the 'room' system was used to separate users within different room.\nThe application is being serviced on domain: wlt.kr, and I am planning to promote the service and gather users. The deployment was done using AWS Lightsail, where the instance is placed in South Korea.",
         "siteUrls": {
-            "pageUrl": "https://beomseok-kang.github.io/watch-lck-together/lobby",
-            "githubUrl": "https://github.com/beomseok-kang/watch-lck-together"
+            "pageUrl": "http://wlt.kr/lobby",
+            "githubUrl": "https://github.com/beomseok-kang/wlt-server"
         }
     },
     {

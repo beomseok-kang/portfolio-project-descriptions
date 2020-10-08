@@ -17,7 +17,11 @@ const stacks = {
     redux: "Redux",
     sass: "Sass",
     styledcomponents: "Styled Components",
-    typescript: "TypeScript"
+    typescript: "TypeScript",
+    nodejs: "Node.js",
+    express: "Express",
+    socketio: "Socket.IO",
+    nextjs: "Next.js"
 }
 
 function Stack({ stack }: StackProps) {
