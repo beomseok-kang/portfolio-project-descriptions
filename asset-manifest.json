@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-project-descriptions/static/css/main.503ab908.chunk.css",
-    "main.js": "/portfolio-project-descriptions/static/js/main.7ed49dcb.chunk.js",
-    "main.js.map": "/portfolio-project-descriptions/static/js/main.7ed49dcb.chunk.js.map",
+    "main.css": "/portfolio-project-descriptions/static/css/main.a3ac7e61.chunk.css",
+    "main.js": "/portfolio-project-descriptions/static/js/main.b88072ff.chunk.js",
+    "main.js.map": "/portfolio-project-descriptions/static/js/main.b88072ff.chunk.js.map",
     "runtime-main.js": "/portfolio-project-descriptions/static/js/runtime-main.d2f5ca90.js",
     "runtime-main.js.map": "/portfolio-project-descriptions/static/js/runtime-main.d2f5ca90.js.map",
     "static/js/2.6ec769b8.chunk.js": "/portfolio-project-descriptions/static/js/2.6ec769b8.chunk.js",
     "static/js/2.6ec769b8.chunk.js.map": "/portfolio-project-descriptions/static/js/2.6ec769b8.chunk.js.map",
     "index.html": "/portfolio-project-descriptions/index.html",
-    "precache-manifest.4f00bc780cbe657bba1d62774a38c99b.js": "/portfolio-project-descriptions/precache-manifest.4f00bc780cbe657bba1d62774a38c99b.js",
+    "precache-manifest.5015522f80650430901b2790192f0d3f.js": "/portfolio-project-descriptions/precache-manifest.5015522f80650430901b2790192f0d3f.js",
     "service-worker.js": "/portfolio-project-descriptions/service-worker.js",
-    "static/css/main.503ab908.chunk.css.map": "/portfolio-project-descriptions/static/css/main.503ab908.chunk.css.map",
+    "static/css/main.a3ac7e61.chunk.css.map": "/portfolio-project-descriptions/static/css/main.a3ac7e61.chunk.css.map",
     "static/js/2.6ec769b8.chunk.js.LICENSE.txt": "/portfolio-project-descriptions/static/js/2.6ec769b8.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/portfolio-project-descriptions/static/media/Lato-Regular.2d36b1a9.ttf",
-    "static/media/ProjectPhotoAndName.scss": "/portfolio-project-descriptions/static/media/wlt.7d7c8178.png",
+    "static/media/ProjectPhotoAndName.scss": "/portfolio-project-descriptions/static/media/wlt.79654290.png",
     "static/media/Stack.scss": "/portfolio-project-descriptions/static/media/typescript_logo.4e96f111.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d2f5ca90.js",
     "static/js/2.6ec769b8.chunk.js",
-    "static/css/main.503ab908.chunk.css",
-    "static/js/main.7ed49dcb.chunk.js"
+    "static/css/main.a3ac7e61.chunk.css",
+    "static/js/main.b88072ff.chunk.js"
   ]
 }

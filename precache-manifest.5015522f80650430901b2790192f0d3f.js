@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2bf12f493ca32d3de3c0a6a5dd7c268b",
+    "revision": "21d175cf6fa6cc0d29e8f60490b93344",
     "url": "/portfolio-project-descriptions/index.html"
   },
   {
-    "revision": "509ed7f5e9d2aba2c5ac",
-    "url": "/portfolio-project-descriptions/static/css/main.503ab908.chunk.css"
+    "revision": "61222ac529668168bdfc",
+    "url": "/portfolio-project-descriptions/static/css/main.a3ac7e61.chunk.css"
   },
   {
     "revision": "350e3f98609f7d3ce19b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-project-descriptions/static/js/2.6ec769b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "509ed7f5e9d2aba2c5ac",
-    "url": "/portfolio-project-descriptions/static/js/main.7ed49dcb.chunk.js"
+    "revision": "61222ac529668168bdfc",
+    "url": "/portfolio-project-descriptions/static/js/main.b88072ff.chunk.js"
   },
   {
     "revision": "7a1d8017304b735e38e9",
@@ -48,6 +48,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-project-descriptions/static/media/html5_logo.f2282f94.png"
   },
   {
+    "revision": "a21e74d0bf8c67e5f577d35f47b7ccbb",
+    "url": "/portfolio-project-descriptions/static/media/nextjs_logo.a21e74d0.png"
+  },
+  {
+    "revision": "eb82fea98c9f572a5f20c2ab91a78162",
+    "url": "/portfolio-project-descriptions/static/media/nodejs_logo.eb82fea9.png"
+  },
+  {
     "revision": "0b55eec222396a20dd47ee1b9d27d80f",
     "url": "/portfolio-project-descriptions/static/media/nr.0b55eec2.png"
   },
@@ -72,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-project-descriptions/static/media/sass_logo.99e95eb0.png"
   },
   {
+    "revision": "35851b9881f191c26e778e1bc19055db",
+    "url": "/portfolio-project-descriptions/static/media/socketio_logo.35851b98.png"
+  },
+  {
     "revision": "3745d5de0728ec47786eb328c7076356",
     "url": "/portfolio-project-descriptions/static/media/styledcomponents_logo.3745d5de.png"
   },
@@ -88,7 +100,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-project-descriptions/static/media/uae.a78c8d8d.png"
   },
   {
-    "revision": "7d7c8178d39066620918fecc6c9cb96e",
-    "url": "/portfolio-project-descriptions/static/media/wlt.7d7c8178.png"
+    "revision": "79654290203f6b3aaf52393d4ec5e035",
+    "url": "/portfolio-project-descriptions/static/media/wlt.79654290.png"
   }
 ]);
